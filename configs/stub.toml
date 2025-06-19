@@ -1,0 +1,15 @@
+ListenAddr = ":8080"
+
+[mysql]
+Username = "root"
+Password = "root"
+Host = "sca-mysql:3306"
+Database = "sca"
+
+[redis]
+Addr = "sca-redis:6379"
+Password = ""
+DB = 0
+
+[breeds]
+Url = "https://api.thecatapi.com/v1/breeds"
